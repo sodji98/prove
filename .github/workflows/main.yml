@@ -2,7 +2,7 @@ name: PVS-Studio build analysis
 on: workflow_dispatch
 jobs:
   build-analyze:
-    runs-on: ubuntu-latest
+    runs-on: self-host
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
