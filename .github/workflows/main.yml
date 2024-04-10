@@ -1,6 +1,7 @@
 name: PVS-Studio build analysis
 on:
   workflow_dispatch
+  push:
 jobs:
   build-analyze:
     runs-on: pvs
