@@ -14,5 +14,4 @@ jobs:
       - name: Publish report
         uses: github/codeql-action/upload-sarif@v2
         with:
-          sarif_file: results.sarif
-          category: PVS-Studio
+          sarif_file: ./results.sarif
