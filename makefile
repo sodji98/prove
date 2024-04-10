@@ -1,3 +1,3 @@
-W = -c --all-warnings --extra-warnings -W
+W = -xc++  --all-warnings --extra-warnings -W
 test: ./src/*
-	gcc ./src/* $(W)
+	g++ ./src/* $(W)
