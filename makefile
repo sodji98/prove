@@ -1,5 +1,5 @@
 W = -c --all-warnings --extra-warnings -W
-SRC=$(wildcard *.c)
+SRC=$(wildcard ./src/*.c)
 
 test: $(SRC)
-	gcc $^ $(W)
+    gcc $^ $(W) -o $@
